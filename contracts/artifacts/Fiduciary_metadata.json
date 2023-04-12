@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_settlor",
+						"type": "address"
+					}
+				],
+				"name": "createFiduciaryRelationship",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRegulator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fiduciary.sol": "Fiduciary"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Fiduciary.sol": {
+			"keccak256": "0x73f5c520da20b5484143498fd11cd629bddc12f6a38e2b73d3e6820e15ad2755",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e26a02e47197484eab0863e6c53bce8675c2bd3bcfa14f11dd8d39c37ee45ed3",
+				"dweb:/ipfs/QmPzkW2S99s4FMbXd8GKHby2LHb52CsHZpHVBd4WRvbcDG"
+			]
+		}
+	},
+	"version": 1
+}
